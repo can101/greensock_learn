@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  overflow-x: hidden;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin: 5px;
+}
+.blue {
+  background-color: cornflowerblue;
+}
+.grey {
+  background-color: grey;
+}
+.red {
+  background-color: indianred;
+}
