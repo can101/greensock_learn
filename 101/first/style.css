@@ -1,0 +1,23 @@
+:root {
+  --box-size: 30px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.box {
+  display: inline-block;
+  position: relative;
+  height: var(--box-size);
+  width: var(--box-size);
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
