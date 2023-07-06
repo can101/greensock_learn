@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.section {
+  height: 100dvh;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 2rem;
+  background-image: url(/assets/mask.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+body {
+  overflow-x: hidden;
+}
+.green {
+  background-color: rgb(0, 128, 0);
+  color: green;
+}
+.purple {
+  background-color: rgb(128, 0, 128);
+  color: purple;
+}
+.red {
+  background-color: rgb(255, 0, 0);
+  color: red;
+}
+.blue {
+  background-color: cornflowerblue;
+  color: cornflowerblue;
+}
+.orange {
+  background-color: rgb(255, 166, 0);
+  color: orange;
+}
+.black {
+  background-color: rgb(0, 0, 0);
+  color: black;
+}
