@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: Airal;
+  text-align: center;
+}
+main {
+  max-width: 50%;
+  margin: 80px auto;
+}
+
+p {
+  padding-top: 50px;
+  margin: 0 auto;
+  /* max-width: 1200px; */
+  text-align: left;
+  line-height: 1.7;
+  font-size: 1.5rem;
+}
+span {
+  background-image: linear-gradient(yellow, yellow);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 1s ease-in;
+  -webkit-transition: background-size 1s ease-in;
+  -moz-transition: background-size 1s ease-in;
+  -ms-transition: background-size 1s ease-in;
+  -o-transition: background-size 1s ease-in;
+}
+.active {
+  background-size: 100% 100%;
+}
