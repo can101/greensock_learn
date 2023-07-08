@@ -4,3 +4,4 @@
 > I aim to use the GreenSock library to create impactful animations in my web projects and utilize a web application to manage the animation tasks I will undertake.
 
 ## GreenSock Learning 101
+> Draggable, flip, motion-paht-plugin, scrollTrigger, timeline
